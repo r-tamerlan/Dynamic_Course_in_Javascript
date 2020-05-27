@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rüstəmov Tamerlan">
+    <title>Free Online Courses</title>
+    <link rel="icon" type="image/png" href="img/js-logo-badge-512.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="ilkYukleme()">
+    <div class="bodyHome">
+        <div id="alert" role="alert">
+        </div>
+        <div id="form">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Course Title</label>
+                    <input id="title" type="text" class="form-control" placeholder="Course Title">
+                    <small class="form-text text-muted">Kursun başlıqı</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Instruction</label>
+                    <input id="inst" type="text" class="form-control" placeholder="Instruction">
+                    <small class="form-text text-muted">İçindəkilər</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Imanges</label>
+                    <input id="images" type="text" class="form-control" placeholder="Imanges">
+                    <small class="form-text text-muted">Şəkili adı</small>
+                </div>
+                <button id="btnSumbit" type="button" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div id="netice">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Image</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Instruction</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="cedvelinIci">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

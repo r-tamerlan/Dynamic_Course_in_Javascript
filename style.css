@@ -1,0 +1,22 @@
+.bodyHome {
+    margin: 50px auto;
+    width: 1000px;
+    height: 100%;
+}
+
+#netice {
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+
+#form {
+    width: 300px;
+    height: 100%;
+    margin: 0 100px 0 0;
+    float: left;
+}
+
+#alert {
+    display: none;
+}
